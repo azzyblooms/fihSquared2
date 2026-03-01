@@ -2,13 +2,13 @@ x += xmovement_dir*xmovement_speed
 y += ymovement_dir*ymovement_speed
 
 function shov() {
-	if(keyboard_check(vk_anykey)) {
+	if(keyboard_check(vk_enter)) {
 		if(charge <51) {
 			charge++
 		}
 			show_debug_message("hi i ran")
 	}
-	if(keyboard_check_released(vk_anykey)) {
+	if(keyboard_check_released(vk_enter)) {
 		ymovement_speed = 2*charge/3
 		xmovement_speed = 0
 		launch = 1
