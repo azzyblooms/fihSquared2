@@ -1,24 +1,35 @@
-xspeed = 0;
-yspeed = 0;
-xmovementspeed = 1;
-ymovementspeed = 1;
-//object_visible(false);
+xvelo = 0;
+yvelo = 0;
+movetime = 0;
+canGo = true;
+generating = true;
+dissolving = false;
+randomize();
+image_alpha = 0;
+swimCount = 0;
 
-function movement() {
-	distance = random_range(20, 100);
-	wherearewegoingx = irandom_range(1, 2);
-	wherearewegoingy = irandom_range(1, 2);
-	repeat(distance) {
-		if (wherearewegoingx == 1) {
-			x += xmovementspeed;
-		} else {
-			x -= xmovementspeed;
-		}
-		if (wherearewegoingy == 1) {
-			y += xmovementspeed;
-		} else {
-			y -= xmovementspeed;
-		}
+function stride() {
+	canGo = false;
+	st = irandom_range(1, 8)
+	swimCount += 1;
+	show_debug_message("swim" + string(swimCount));
+	
+	movetime = irandom_range (60, 120)
+	
+	switch (st) {
+		case 1: xvelo = 20; yvelo = 0; image_xscale = -1; break;
+		case 2: xvelo = -20; yvelo = 0; image_xscale = 1; break;
+		case 3: xvelo = 20; yvelo = 20; image_xscale = -1; break;
+		case 4: xvelo = -20; yvelo = -20; image_xscale = 1; break;
+		case 5: xvelo = 20; yvelo = -20; image_xscale = -1; break;
+		case 6: xvelo = -20; yvelo = 20; image_xscale = 1; break;
+		case 7: xvelo = 0; yvelo = 20; break;
+		case 8: xvelo = 0; yvelo = -20; break;
 	}
-}	
+	dothething();
+};
 		
+function dothething() {
+	waittime = irandom_range(15, 135)
+	alarm[0] = waittime;
+};
