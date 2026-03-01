@@ -18,7 +18,6 @@ if (canGo){
 	if (swimCount < 9) {
 		stride();
 	} else {
-		show_debug_message("swimcount exceeds twelve");
 		dissolving = true;
 	}
 }
@@ -32,7 +31,6 @@ if (generating) {
 if (dissolving) {
 	if(image_alpha != 0) {
 		image_alpha -= 0.02;	
-		show_debug_message("alpha decrease");
 	} else {
 		image_alpha = 0;
 		show_debug_message("die");
