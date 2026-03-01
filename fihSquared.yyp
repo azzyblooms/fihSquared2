@@ -32,6 +32,7 @@
     {"id":{"name":"oTuna","path":"objects/oTuna/oTuna.yy",},},
     {"id":{"name":"oTwona","path":"objects/oTwona/oTwona.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"mainBackground","path":"sprites/mainBackground/mainBackground.yy",},},
     {"id":{"name":"sBass","path":"sprites/sBass/sBass.yy",},},
     {"id":{"name":"sDoubleBass","path":"sprites/sDoubleBass/sDoubleBass.yy",},},
     {"id":{"name":"sElectricBass","path":"sprites/sElectricBass/sElectricBass.yy",},},

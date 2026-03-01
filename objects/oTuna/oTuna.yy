@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sTuna",
+    "path":"sprites/sTuna/sTuna.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

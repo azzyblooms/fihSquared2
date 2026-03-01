@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sDoubleBass",
+    "path":"sprites/sDoubleBass/sDoubleBass.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
