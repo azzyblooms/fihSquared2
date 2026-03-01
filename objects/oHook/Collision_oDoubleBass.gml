@@ -4,7 +4,7 @@ with (all) {
         instance_destroy();
     }
 }
-x=oBass.x;
-y=oBass.y;
+x=oDoubleBass.x;
+y=oDoubleBass.y;
 image_xscale=1
 alarm[0]=15
