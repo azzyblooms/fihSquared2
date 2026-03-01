@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oFisher",
+  "%Name":"oHit2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oFisher",
+  "name":"oHit2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sFisher",
-    "path":"sprites/sFisher/sFisher.yy",
+    "name":"sMedium",
+    "path":"sprites/sMedium/sMedium.yy",
   },
   "spriteMaskId":null,
   "visible":true,

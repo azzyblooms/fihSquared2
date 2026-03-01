@@ -1,5 +1,6 @@
 movespeed = 30;
 go = true;
+caught = false;
 canGo = true;
 randomize();
 scale = random_range(0.5, 1)

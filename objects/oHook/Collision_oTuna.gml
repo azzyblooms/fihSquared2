@@ -7,5 +7,5 @@ with (all) {
 x=oTuna.x;
 y=oTuna.y;
 image_xscale=1
-
-alarm[0]=15
+oTuna.persistent = true3
+alarm[0]=1

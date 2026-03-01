@@ -7,4 +7,4 @@ with (all) {
 x=oDoubleBass.x;
 y=oDoubleBass.y;
 image_xscale=1
-alarm[0]=15
+alarm[0]=1

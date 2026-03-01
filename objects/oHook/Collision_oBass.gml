@@ -7,4 +7,5 @@ with (all) {
 x=oBass.x;
 y=oBass.y;
 image_xscale=1
-alarm[0]=15
+oBass.persistent = true
+alarm[0]=1

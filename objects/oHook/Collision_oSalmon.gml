@@ -7,4 +7,5 @@ with (all) {
 x=oSalmon.x;
 y=oSalmon.y;
 image_xscale=1
-alarm[0]=15
+oSalmon.persistent = true;
+alarm[0]=1
