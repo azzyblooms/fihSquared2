@@ -1,0 +1,2 @@
+movement_speed=10
+movement_dir=1
